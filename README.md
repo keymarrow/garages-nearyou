@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nearlybiz
 
 It is simple website that helps to cummunicate businesses to customer users using php and mysql.
@@ -17,3 +18,6 @@ It is simple website that helps to cummunicate businesses to customer users usin
 ![alt text](images/near8.PNG)
 
 ![alt text](images/near9.PNG)
+=======
+# garages-nearyou
+>>>>>>> origin/main
