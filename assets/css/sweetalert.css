@@ -16,6 +16,16 @@ body.stop-scrolling {
     display: none;
     z-index: 10000; }
   
+
+    .wrapper{
+      transform: translate3d(0px,0,0);
+      display: grid;
+      box-sizing: border-box;
+      grid-template-columns: repeat(auto-fit, minmax(302px, 1fr));
+      grid-gap: 10px;
+      align-items: center;
+  }
+
   .sweet-alert {
     background-color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;

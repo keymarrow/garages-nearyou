@@ -9,7 +9,7 @@
                 <div class="col-xl-4 col-md-7">
                     <div class="footer-widget-about">
                         <a href="index.html" class="d-inline-block mb-30">
-                            <img src="assets/img/logo.png" alt="">
+                            <img src="assets/img/logo2.png" alt="">
                         </a>
                         <p class="mb-25">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi non eligendi
                             exercitationem voluptas tenetur numquam ipsa officiis. Culpa nisi, ab reiciendis adipisci
@@ -64,7 +64,7 @@
                         <ul>
                             <li>
                                 <span>Phone:</span>
-                                0345983672937
+                                +255459836729
                             </li>
                             <li>
                                 <span>Email:</span>
@@ -72,7 +72,7 @@
                             </li>
                             <li>
                                 <span>Location:</span>
-                               india
+                               DIT
                             </li>
                         </ul>
                     </div>
@@ -82,7 +82,7 @@
     </div>
     <div class="lower-footer bg-dark p-3">
         <div class="text-center text-white">
-            Designed &amp; Developed with <i class="fas fa-heart text-primary px-1"></i> By <a href="https://hertzsoft.com/" class="text-white"><img src="assets/img/hertzsoft-logo.png" alt="Hertzsoft Technologies Pvt. Ltd." height="28px" class="px-1"></a>
+            Designed &amp; Developed By Patrick Kimaro
         </div>
     </div>
 </footer>

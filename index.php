@@ -8,7 +8,7 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NearlyBiz - Discover Near You !!!</title>
+    <title>Discover Nearby Garage</title>
     <meta name='description' content=''>
     <meta name='keywords' content=''>
     <!-- Facebook og -->
@@ -28,10 +28,18 @@ session_start();
     <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="assets/js/sweetalert.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="assets/js/sweetalert.min.js"></script>
 
+
+    <style>
+        .swiper-wrapper{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-gap: 5px;
+        }
+    </style>
 
 
     <?php include 'includes/css.php'; ?>
@@ -61,8 +69,8 @@ session_start();
 
     <main>
         <section class="hero padding-y-100">
-            <h1 class=" text-center">Discover Near You</h1>
-            <h5 class="mb-3 text-center">All the top Locations – from Restaurants and Hotels, to Shops, Famous Services and more..
+            <h1 class=" text-center">Discover Nearby Garage</h1>
+            <h5 class="mb-3 text-center">All the top Garages Location In town
             </h5>
             <div class="search-box mt-3">
                 <div>
@@ -137,7 +145,7 @@ session_start();
 
 
 
-                <div class="swiper-container">
+                <div class="swiper swiper-container">
                     <div class="swiper-wrapper">
 
                         <!--  inserting data in card form -->
@@ -164,9 +172,9 @@ session_start();
                                         <p><span class="text-success">(Open)</span> Closes on 9:00 PM</p>
                                         <div class="d-flex align-items-center justify-content-between mb-2 mt-1">
                                             <p> <?php echo $row['shopd']; ?> </p>
-                                            <p class="rattings"><i class="fas fa-star"></i> 3.0 (155)</p>
+                                            <p class="rattings"><i class="fas fa-star"></i> 4.0 (155)</p>
                                         </div>
-                                        <a href="#"><i class="fas fa-phone-alt"></i> <?php echo $row['contactnum']; ?></a><br>
+                                        <a href="tel:<?php echo $row['contactnum']; ?>"><i class="fas fa-phone-alt"></i> <?php echo $row['contactnum']; ?></a><br>
                                         <a href="#"><i class="fas fa-map-marker-alt"></i> <?php echo $row['address']; ?></a>
                                         <!-- business details -->
                                         <div class="d-flex">
@@ -200,27 +208,13 @@ session_start();
                     </div>
                     <div class="col-12">
                         <div class="d-flex flex-wrap align-items-center justify-content-center">
-                            <a href="#" class="category">Gym / Fitness Centres</a>
-                            <a href="#" class="category">Stationary Shops</a>
-                            <a href="#" class="category">Advocate Office</a>
-                            <a href="#" class="category">Medical Stores</a>
-                            <a href="#" class="category">Software Companies</a>
-                            <a href="#" class="category">General Stores</a>
-                            <a href="#" class="category">Kirana Stores</a>
-                            <a href="#" class="category">Restaurants</a>
-                            <a href="#" class="category">Juice Centres</a>
-                            <a href="#" class="category">Cafe</a>
-                            <a href="#" class="category">Lounge</a>
-                            <a href="#" class="category">Fashion Stores</a>
-                            <a href="#" class="category">Mobile Stores</a>
-                            <a href="#" class="category">Electronics Shops</a>
-                            <a href="#" class="category">Banks</a>
-                            <a href="#" class="category">Hospitals</a>
-                            <a href="#" class="category">Clinic Centres</a>
-                            <a href="#" class="category">Schools</a>
-                            <a href="#" class="category">Colleges</a>
-                            <a href="#" class="category">Traning Institutes</a>
-                            <a href="#" class="category">Transport Services</a>
+                            <a href="#" class="category">GARAGE</a>
+                            <a href="#" class="category">CAR WASH</a>
+                            <a href="#" class="category">AUTO SPARE PARTIES</a>
+                            <a href="#" class="category">CAR MAINTAINCE</a>
+                            <a href="#" class="category">CAR CHECKUP</a>
+                            <a href="#" class="category">CAR REPAIR</a>
+                            <a href="#" class="category">AUTO MOTIVE SPACE</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +230,7 @@ session_start();
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="swiper-container">
+                        <div class="swiper swiper-container">
                             <div class="swiper-wrapper">
 
                                 <?php
@@ -323,13 +317,13 @@ session_start();
 
         <section class="padding-y-80 cta">
             <div class="container text-center">
-                <h3>Spend More Time Running Your Business.</h3>
+                <h3>Spend More Time Running Your GARAGE.</h3>
                 <h4>And, less time obsessing about your local presence.</h4><br>
                 <a href="add-business.php" class="btn btn-primary">Add Your Business, it's Free !</a>
             </div>
         </section>
     </main>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <?php include 'includes/footer.php'; ?>
 
     <script type="text/javascript">

@@ -541,7 +541,7 @@ a {
 
 // Swiper Base CSS
 .swiper-container {
-    width: 100%;
+    width: auto;
     height: 100%;
     padding-bottom: 50px;
 }
@@ -832,7 +832,7 @@ main {
 
 // Hero Section
 .hero {
-    background: linear-gradient(0deg, rgba($dark, 0.8), rgba($dark, 0.8)), url('../img/hero-bg.jpg');
+    background: linear-gradient(0deg, rgba($dark, 0.8), rgba($dark, 0.8)), url('../img/hero.jpeg');
     background-size: cover;
     background-attachment: fixed;
     min-height: 70vh;

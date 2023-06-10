@@ -24,7 +24,7 @@ session_start();
     <meta property='og:type' content='website' />
     <meta name='Distribution' content='Global'>
     <meta name='robots' content=''>
-    <meta name='googlebot' content=''>2
+    <meta name='googlebot' content=''>
     <meta name='revisit-after' content=''>
     <meta name='language' content='en-us'>
     <link rel='canonical' href='' />
@@ -176,7 +176,7 @@ session_start();
                                 </div>
                                 <div class="form-group col-md-6 col-sm-12">
                                     <label for="inputEmail4">Location <sup class="text-danger" data-toggle="tooltip" data-placement="right" title="Required">*</sup></label>
-                                    <input type="text" class="form-control" id="location" required name="location" placeholder="Enter your location eg = mumbai">
+                                    <input type="text" class="form-control" id="location" required name="location" placeholder="Enter your location eg kinondoni">
                                 </div>
 
 

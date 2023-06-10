@@ -78,6 +78,10 @@ $('.select-2').select2();
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 3,
   spaceBetween: 30,
+  pagination: {
+    el:".swiper-pagination",
+    clickable: true,
+  },
   navigation: {
     nextEl: '.btn-next',
     prevEl: '.btn-prev',
@@ -102,10 +106,15 @@ var swiper = new Swiper('.swiper-container', {
   }
 });
 
-var swiper = new Swiper('.featured .swiper-container', {
+
+var swiper = new Swiper('.featured .swiper-container .swiper-slide', {
   slidesPerView: 5,
   spaceBetween: 30,
   loop: true,
+  pagination: {
+    el:".swiper-pagination",
+    clickable: true,
+  },
   navigation: {
     nextEl: '.btn-next',
     prevEl: '.btn-prev',

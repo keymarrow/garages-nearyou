@@ -8,7 +8,7 @@
     <title>Document</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NearlyBiz - Discover Near You !!!</title>
+    <title>Discover Nearby Garage</title>
     <meta name='description' content=''>
     <meta name='keywords' content=''>
     <!-- Facebook og -->
